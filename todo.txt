@@ -1,0 +1,6 @@
+Create projects page in blog style
+Populate projects page from DB
+Populate blog page from DB
+Create admin tool for populating projects and blogs
+Styling changes
+Deploy
