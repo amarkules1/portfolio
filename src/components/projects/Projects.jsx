@@ -45,8 +45,11 @@ class Projects extends Component {
       return (
         <ul>
           {items.map(item => (
-            <a key={item.id} href={item.url}>
-              {item.title}
+            <a href={item.url} style={{color: 'black', textDecoration: 'none'}}>
+            <div key={item.id} className="projectContainer card" style={{width: '30%', margin: '10%'}}> 
+              <h5  className="card-title">{item.title}</h5 >
+              <div className="card-text">{item.description}</div>
+            </div>
             </a>
           ))}
         </ul>
