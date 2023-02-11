@@ -12,6 +12,7 @@ import {
   Post,
 } from "./components";
 import reportWebVitals from './reportWebVitals';
+import Projects from './components/projects/Projects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,7 +21,7 @@ root.render(
     <Routes>
       <Route path="/" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/blog" element={<Blog />}>
+      <Route path="/projects" element={<Projects />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>
