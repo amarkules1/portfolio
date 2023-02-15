@@ -42,17 +42,30 @@ class Projects extends Component {
     } else if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
+      const rows = [...Array(Math.ceil(items.length / 3))];
+      const projectRows = rows.map((row, idx) => items.slice(idx * 3, idx * 3 + 3));
+
       return (
-        <ul>
-          {items.map(item => (
-            <a href={item.url} style={{color: 'black', textDecoration: 'none'}}>
-            <div key={item.id} className="projectContainer card" style={{width: '30%', margin: '10%'}}> 
-              <h5  className="card-title">{item.title}</h5 >
-              <div className="card-text">{item.description}</div>
-            </div>
-            </a>
-          ))}
-        </ul>
+        <div className="container projectsContainer">
+          {
+            projectRows.map(row => (
+              <div className="row">
+                {
+                  row.map(item => (
+                    <div className="col-md-4">
+                    <a href={item.url} className="divLink">
+                      <div key={item.id} className="projectBox card">
+                        <h5 className="card-title">{item.title}</h5>
+                        <div className="card-text">{item.description}</div>
+                      </div>
+                    </a>
+                    </div>
+                  ))
+                }
+              </div>
+            ))
+          }
+        </div>
       );
     }
   }
