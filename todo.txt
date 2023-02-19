@@ -1,3 +1,2 @@
-update photo
-Styling changes
-Deploy
+Add Resume page
+HTTPS encryption

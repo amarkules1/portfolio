@@ -18,7 +18,8 @@ class About extends Component {
               <h1 className="font-weight-light">About</h1>
               <p>
                 Hi, I'm Alex. I'm currently a Masters Student in Data Science and Analytics at Grand Valley State University. 
-                I also work as a Data Engineer for SalesPage Technologies. My interests range from Web Development to Machine Learning to Web3. 
+                I also work as a Data Engineer for SalesPage Technologies. I have a wide range of interests in the realm of software development, 
+                ranging from Web Development to Statistical Analysis to Machine Learning to Web 3. 
                 This site is a collection of some of the projects and articles I work on in my free time. 
                 Check out some of my work, or reach out if there's something you'd be interested in collaborating on!
               </p>
