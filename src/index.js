@@ -10,6 +10,9 @@ import {
   Blog,
   Posts,
   Post,
+  Resume,
+  WorkExperience,
+  Education
 } from "./components";
 import reportWebVitals from './reportWebVitals';
 import Projects from './components/projects/Projects';
@@ -21,6 +24,10 @@ root.render(
     <Routes>
       <Route path="/" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/resume" element={<Resume />} >
+        <Route path="work-experience" element={<WorkExperience />} />
+        <Route path="education" element={<Education />} />
+      </Route>
       <Route path="/projects" element={<Projects />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
