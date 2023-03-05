@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 
 class WorkExperience extends Component {
   render() {
@@ -35,8 +34,8 @@ class WorkExperience extends Component {
                 <ul className="details">
                     <li className="detail">Developed software tools to optimize sales revenue, updating hundreds of thousands of prices weekly
                      and bringing in $10 million in additional revenue to the company in the first year.</li>
-                    <div className="detail">Designed and implemented web applications to provide sales and revenue management teams with better
-                     control of pricing for individual customers, saving these teams hundreds of hours of work annually.</div>
+                    <li className="detail">Designed and implemented web applications to provide sales and revenue management teams with better
+                     control of pricing for individual customers, saving these teams hundreds of hours of work annually.</li>
                     <li className="detail">Participated in design and planning of integrations between custom-built applications and a new SAP 
                     based ERP system, integrating via REST and OData services and seizing opportunities to improve from legacy systems.</li>
                     <li className="detail">Served in an on-call rotation to assess and correct production issues, minimizing downtime.</li>

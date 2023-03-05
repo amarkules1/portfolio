@@ -12,7 +12,8 @@ import {
   Post,
   Resume,
   WorkExperience,
-  Education
+  Education,
+  CertsSkills
 } from "./components";
 import reportWebVitals from './reportWebVitals';
 import Projects from './components/projects/Projects';
@@ -27,6 +28,7 @@ root.render(
       <Route path="/resume" element={<Resume />} >
         <Route path="work-experience" element={<WorkExperience />} />
         <Route path="education" element={<Education />} />
+        <Route path="certs-skills" element={<CertsSkills />} />
       </Route>
       <Route path="/projects" element={<Projects />}>
         <Route path="" element={<Posts />} />

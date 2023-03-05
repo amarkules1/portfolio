@@ -8,3 +8,4 @@ export { default as Post } from "./blog/Post";
 export { default as Resume } from "./resume/Resume";
 export { default as WorkExperience } from "./resume/WorkExperience";
 export { default as Education } from "./resume/Education";
+export { default as CertsSkills } from "./resume/CertsSkills";
