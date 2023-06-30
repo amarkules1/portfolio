@@ -70,9 +70,24 @@ class WorkExperience extends Component {
                     <li className="detail">Collaborated with a development team to develop, test, and deploy financial software, implementing 
                     agile programming strategies to deliver high quality, useful software to meet business needs.</li>
                     <li className="detail">Took on new challenges such as updating and simplifying outdated applications to use modern frameworks
-                     such as Maven, Spring, and Angular 2+.</li>
+                     such as Maven, Spring, and Angular.</li>
                     <li className="detail">Leveraged testing suites such as JUnit for java and Karma and Jasmine for javascript and typescript 
                     to build, and manage robust web applications.</li>
+                </ul>
+            </div>
+            <div className="experience">
+                <div className="experienceName">Information Technology Intern, Finance and HR Enterprises Team</div>
+                <div className="timeline">May 2018 to August 2019</div>
+                <br/>
+                <div className="company">Gordon Food Service</div>
+                <div className="location">Grand Rapids, MI</div>
+                <ul className="details">
+                    <li className="detail">Learned to effectively use agile methodologies and project management tools while working with the 
+                    company’s Finance and HR Software Enterprises team, developing new projects to benefit the company.</li>
+                    <li className="detail">Developed a web based sales tax calculation application which saves the company $200-300k annually, 
+                    by ensuring all applicable municipalities are paid the proper taxes</li>
+                    <li className="detail">Applied knowledge of high level software development strategies such as bottom up design and functional 
+                    programming to adapt quickly to new technologies and prove my value and skill as a software developer.</li>
                 </ul>
             </div>
             <div className="experience">
