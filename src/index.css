@@ -104,3 +104,20 @@ code {
 .resumeButton:hover{
   text-decoration: underline !important;
 }
+
+.displayToggle{
+  display: inline-block !important;
+  float:right;
+}
+
+.mobileMenuUl{
+  flex-direction: column !important;
+}
+
+.navbarContainerMobile {
+  display: block !important;
+}
+/* 
+.mobileMenu{
+  flex-direction: column;
+} */
