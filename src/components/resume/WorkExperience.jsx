@@ -14,15 +14,13 @@ class WorkExperience extends Component {
                 <div className="company">SalesPage Technologies</div>
                 <div className="location">Kalamazoo, MI</div>
                 <ul className="details">
-                    <li className="detail">Designs and implements ETL pipelines to ingest trade and asset data from a variety of sources,
-                     creating a holistic picture of the activities and holdings of the entire US financial advising industry.</li>
-                    <li className="detail">Improves the flexibility and robustness of software tools by implementing and 
-                    teaching others about best practices like unit testing and  Behavior Driven Development.</li>
-                    <li className="detail">Leverages data science methodologies such as Record Linkage, Natural Language Processing and 
-                    classification algorithms to improve the quality of various data products, in a way that can be articulated to non-technical
-                     coworkers and clients</li>
-                    <li className="detail">Migrates existing capabilities to a modern technology stack, making use of a cloud based microservice
-                     architecure to improve the performance and robustness of data pipelines.</li>
+                    <li className="detail">Provides domain and technical expertise when meeting with coworkers and clients, acting as technical lead for the Data Services team.</li>
+                    <li className="detail">Plans and implements ETL pipelines to ingest, clean, and aggregate trade and asset data from a variety of sources.</li>
+                    <li className="detail">Designs software solutions to meet complex business requirements.</li>
+                    <li className="detail">Improves the flexibility and robustness of software by implementing and teaching others about best practices like unit testing and BDD.</li>
+                    <li className="detail">Leverages record linkage, classification algorithms, and NLP to improve the quality of data products.</li>
+                    <li className="detail">Documents and explains these tools in a way that can be articulated to non-technical coworkers and clients.</li>
+                    <li className="detail">Migrates existing capabilities and new features to a modern technology stack, to improve speed and stability of data pipelines.</li>
                 </ul>
             </div>
             <div className="experience">
@@ -32,16 +30,10 @@ class WorkExperience extends Component {
                 <div className="company">Gordon Food Service</div>
                 <div className="location">Grand Rapids, MI</div>
                 <ul className="details">
-                    <li className="detail">Developed software tools to optimize sales revenue, updating hundreds of thousands of prices weekly
-                     and bringing in $10 million in additional revenue to the company in the first year.</li>
-                    <li className="detail">Designed and implemented web applications to provide sales and revenue management teams with better
-                     control of pricing for individual customers, saving these teams hundreds of hours of work annually.</li>
-                    <li className="detail">Participated in design and planning of integrations between custom-built applications and a new SAP 
-                    based ERP system, integrating via REST and OData services and seizing opportunities to improve from legacy systems.</li>
-                    <li className="detail">Served in an on-call rotation to assess and correct production issues, minimizing downtime.</li>
-                    <li className="detail">Trained and assisted new developers on the team, to help them understand the business use 
-                    of our applications, as well as some of our software development best practices like Test Driven Development and 
-                    Automated Acceptance Testing.</li>
+                    <li className="detail">Developed tools to optimize pricing for the full product catalog, bringing in $10 million in additional revenue to the company in the first year.</li>
+                    <li className="detail">Designed and implemented applications to provide employees with control of prices for each client, saving countless hours of work annually.</li>
+                    <li className="detail">Built integrations between existing applications and a new SAP based ERP system, while simultaneously optimizing legacy systems.</li>
+                    <li className="detail">Trained and assisted new team members, helping them understand the purpose of our applications and teaching them best practices like Test Driven Development and Automated Acceptance Testing.</li>
                 </ul>
             </div>
             <div className="experience">
@@ -52,27 +44,17 @@ class WorkExperience extends Component {
                 <div className="location">Grand Rapids, MI</div>
                 <ul className="details">
                     <li className="detail">Implemented new features for an enterprise eCommerce platform, reacting quickly to meet business needs.</li>
-                    <li className="detail">Utilized technologies such as Angular, Typescript, Java, and Oracle ATG to create reliable, 
-                    consistent, and highly functional web applications.</li>
-                    <li className="detail">Provided technical expertise to collaborate on the design, planning, and architecture of new features
-                     with a team of UX designers, software developers, testers, and a product owner.</li>
-                    <li className="detail">Made use of best practices such as Scaled Agile (SAFe) development, continuous integration and development,
-                     test driven development, and paired programming to create an effective, feature rich, stable product.</li>
+                    <li className="detail">Provided technical expertise to collaborate on the design, planning, and architecture of new features with a team of UX designers, software developers, testers, and a product owner.</li>
                 </ul>
             </div>
             <div className="experience">
-                <div className="experienceName">Software Development (Part Time), Finance and HR Enterprises Team</div>
-                <div className="timeline">August 2018 to May 2019</div>
+                <div className="experienceName">Software Development Intern, Finance and HR Enterprises Team</div>
+                <div className="timeline">May 2018 to May 2019</div>
                 <br/>
                 <div className="company">Gordon Food Service</div>
                 <div className="location">Grand Rapids, MI</div>
                 <ul className="details">
-                    <li className="detail">Collaborated with a development team to develop, test, and deploy financial software, implementing 
-                    agile programming strategies to deliver high quality, useful software to meet business needs.</li>
-                    <li className="detail">Took on new challenges such as updating and simplifying outdated applications to use modern frameworks
-                     such as Maven, Spring, and Angular.</li>
-                    <li className="detail">Leveraged testing suites such as JUnit for java and Karma and Jasmine for javascript and typescript 
-                    to build, and manage robust web applications.</li>
+                    <li className="detail">Used agile methodologies and project management tools to develop projects to benefit the company, including a location based sales tax calculation application which saved the company $200-300k annually.</li>
                 </ul>
             </div>
             <div className="experience">
