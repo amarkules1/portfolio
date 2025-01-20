@@ -8,19 +8,33 @@ class WorkExperience extends Component {
                 Work Experience
             </div>
             <div className="experience">
+                <div className="experienceName">Senior Data Engineer, Data Services Team</div>
+                <div className="timeline">December 2024 to Present</div>
+                <br/>
+                <div className="company">SalesPage Technologies</div>
+                <div className="location">Kalamazoo, MI</div>
+                <ul className="details">
+                    <li className="detail">Provides technical expertise and domain knowledge while leading client onboarding projects for the Data Onboarding team.</li>
+                    <li className="detail">Works with business stakeholders to design and implement our next generation data management and mastery solution.</li>
+                    <li className="detail">Gives guidance and recommendations on best practices to the development team, helping to resolve issues and build robust solutions.</li>
+                    <li className="detail">Analyzes unstructured and inconsistent datasets, taking a data science based approach to improve data hygiene, classification, and resolution.</li>
+                    <li className="detail">Leverages record linkage, classification algorithms, and NLP to improve the quality of data products.</li>
+                    <li className="detail">Documents processes and solutions in a clear and concise manner, providing a framework that makes it easier for team members to do the same.</li>
+                </ul>
+            </div>
+            <div className="experience">
                 <div className="experienceName">Data Engineer, Data Services Team</div>
                 <div className="timeline">September 2021 to Present</div>
                 <br/>
                 <div className="company">SalesPage Technologies</div>
                 <div className="location">Kalamazoo, MI</div>
                 <ul className="details">
-                    <li className="detail">Provides domain and technical expertise when meeting with coworkers and clients, acting as technical lead for the Data Services team.</li>
-                    <li className="detail">Plans and implements ETL pipelines to ingest, clean, and aggregate trade and asset data from a variety of sources.</li>
-                    <li className="detail">Designs software solutions to meet complex business requirements.</li>
-                    <li className="detail">Improves the flexibility and robustness of software by implementing and teaching others about best practices like unit testing and BDD.</li>
-                    <li className="detail">Leverages record linkage, classification algorithms, and NLP to improve the quality of data products.</li>
-                    <li className="detail">Documents and explains these tools in a way that can be articulated to non-technical coworkers and clients.</li>
-                    <li className="detail">Migrates existing capabilities and new features to a modern technology stack, to improve speed and stability of data pipelines.</li>
+                    <li className="detail">Provided domain and technical expertise when meeting with coworkers and clients, acting as technical lead for the Data Services team.</li>
+                    <li className="detail">Designed, and implemented software solutions such as microservices and ETL pipelines which are responsible for ingesting, cleaning, resolving, and aggregating financial data from a variety of sources.</li>
+                    <li className="detail">Improved the flexibility and robustness of software by implementing and teaching others about best practices like unit testing and BDD.</li>
+                    <li className="detail">Leveraged record linkage, classification algorithms, and NLP to improve the quality of data products.</li>
+                    <li className="detail">Documented and explained these tools in a way that can be articulated to non-technical coworkers and clients.</li>
+                    <li className="detail">Migrated existing capabilities and new features to a modern technology stack, to improve speed and stability of data pipelines.</li>
                 </ul>
             </div>
             <div className="experience">
