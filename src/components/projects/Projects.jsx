@@ -12,7 +12,7 @@ class Projects extends Component {
   }
 
   componentDidMount() {
-    fetch("http://45.56.125.213:5000/projects")
+    fetch("/projects")
       .then(res => res.json())
       .then(
         (result) => {

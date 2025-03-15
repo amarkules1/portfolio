@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Footer,
@@ -23,12 +23,14 @@ root.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/" element={<About />} />
+    <Route path="/" element={<About />} />
+    <Route path="/index.html" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/resume" element={<Resume />} >
         <Route path="work-experience" element={<WorkExperience />} />
         <Route path="education" element={<Education />} />
         <Route path="certs-skills" element={<CertsSkills />} />
+        <Route path="" element={<WorkExperience />} />
       </Route>
       <Route path="/projects" element={<Projects />}>
         <Route path="" element={<Posts />} />
