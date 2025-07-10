@@ -7,7 +7,7 @@ const Post = () => {
     const { postId } = useParams();
 
     useEffect(() => {
-        fetch(`/api/blog/${postId}`)
+        fetch(`/blog/${postId}`)
             .then(response => response.json())
             .then(data => setPost(data))
             .catch(error => console.error('Error fetching post:', error));
@@ -22,7 +22,7 @@ const Post = () => {
             <div className="row">
                 <div className="col-md-8 offset-md-2">
                     <h1>{post.title}</h1>
-                    <p><small className="text-muted">{new Date(post.created_at).toLocaleDateString()}</small></p>
+                    <p><small className="text-muted">{post.created_at ? new Date(post.created_at).toLocaleDateString() : ''}</small></p>
                     <hr />
                     <ReactMarkdown>{post.content}</ReactMarkdown>
                 </div>
