@@ -17,6 +17,9 @@ import {
 } from "./components";
 import reportWebVitals from './reportWebVitals';
 import Projects from './components/projects/Projects';
+import BlogPage from "./components/blog/Blog";
+import BlogPost from "./components/blog/Post";
+import { Post as ProjectPost } from './components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,8 +37,10 @@ root.render(
       </Route>
       <Route path="/projects" element={<Projects />}>
         <Route path="" element={<Posts />} />
-        <Route path=":postSlug" element={<Post />} />
+        <Route path=":postSlug" element={<ProjectPost />} />
       </Route>
+      <Route path="/blog" element={<BlogPage />} />
+      <Route path="/blog/:postId" element={<BlogPost />} />
     </Routes>
     <Footer />
   </Router>

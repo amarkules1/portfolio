@@ -1,38 +1,34 @@
-import React, { useState, useEffect, useLayoutEffect, Component } from "react";
-import { useParams } from "react-router";
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
 
-class Post extends Component {
+const Post = () => {
+    const [post, setPost] = useState(null);
+    const { postId } = useParams();
 
-  render() {
-    // let { postSlug } = useParams();
+    useEffect(() => {
+        fetch(`/api/blog/${postId}`)
+            .then(response => response.json())
+            .then(data => setPost(data))
+            .catch(error => console.error('Error fetching post:', error));
+    }, [postId]);
+
+    if (!post) {
+        return <div>Loading...</div>;
+    }
 
     return (
-
-      <div className="home">
-        <div className="container">
-          <h1 className="mt-5">This is a Post Title</h1>
-          <h6 className="mb-5">The post slug is, ???</h6>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
-          </p>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
-          </p>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
-          </p>
+        <div className="container mt-4">
+            <div className="row">
+                <div className="col-md-8 offset-md-2">
+                    <h1>{post.title}</h1>
+                    <p><small className="text-muted">{new Date(post.created_at).toLocaleDateString()}</small></p>
+                    <hr />
+                    <ReactMarkdown>{post.content}</ReactMarkdown>
+                </div>
+            </div>
         </div>
-      </div>
     );
-  }
-}
+};
+
 export default Post;
