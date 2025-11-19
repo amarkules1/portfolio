@@ -8,18 +8,30 @@ class WorkExperience extends Component {
                 Work Experience
             </div>
             <div className="experience">
+                <div className="experienceName">BI Data Engineer, Data Analytics Team</div>
+                <div className="timeline">November 2025 to Present</div>
+                <br/>
+                <div className="company">Tommy's Express Car Wash</div>
+                <div className="location">Holland, MI</div>
+                <ul className="details">
+                    <li className="detail">Develops analytics dashboards using data visualization best practices, working with stakeholders to provide insights for franchisees and internal marketing and finance departments.</li>
+                    <li className="detail">Leverages Databricks and Azure cloud tools to build out ETL pipelines, improving performance, robustness, and cost efficiency while building out our data lake solution.</li>
+                    <li className="detail">Works with internal stakeholders to provide in-depth data analysis in support of company needs and initiatives, such as marketing campaigns and financial reporting needs.</li>
+                </ul>
+            </div>
+            <div className="experience">
                 <div className="experienceName">Senior Data Engineer, Data Services Team</div>
-                <div className="timeline">December 2024 to Present</div>
+                <div className="timeline">December 2024 to October 2025</div>
                 <br/>
                 <div className="company">SalesPage Technologies</div>
                 <div className="location">Kalamazoo, MI</div>
                 <ul className="details">
-                    <li className="detail">Provides technical expertise and domain knowledge while leading client onboarding projects for the Data Onboarding team.</li>
-                    <li className="detail">Works with business stakeholders to design and implement our next generation data management and mastery solution.</li>
-                    <li className="detail">Gives guidance and recommendations on best practices to the development team, helping to resolve issues and build robust solutions.</li>
-                    <li className="detail">Analyzes unstructured and inconsistent datasets, taking a data science based approach to improve data hygiene, classification, and resolution.</li>
-                    <li className="detail">Leverages record linkage, classification algorithms, and NLP to improve the quality of data products.</li>
-                    <li className="detail">Documents processes and solutions in a clear and concise manner, providing a framework that makes it easier for team members to do the same.</li>
+                    <li className="detail">Provided technical expertise and domain knowledge while leading client onboarding projects for the Data Onboarding team.</li>
+                    <li className="detail">Worked with business stakeholders to design and implement our next generation data management and mastery solution.</li>
+                    <li className="detail">Gave guidance and recommendations on best practices to the development team, helping to resolve issues and build robust solutions.</li>
+                    <li className="detail">Analyzed unstructured and inconsistent datasets, taking a data science based approach to improve data hygiene, classification, and resolution.</li>
+                    <li className="detail">Leveraged record linkage, classification algorithms, and NLP to improve the quality of data products.</li>
+                    <li className="detail">Documented processes and solutions in a clear and concise manner, providing a framework that makes it easier for team members to do the same.</li>
                 </ul>
             </div>
             <div className="experience">

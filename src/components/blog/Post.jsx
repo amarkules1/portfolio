@@ -22,7 +22,7 @@ const Post = () => {
             <div className="row">
                 <div className="col-md-8 offset-md-2">
                     <h1>{post.title}</h1>
-                    <p><small className="text-muted">{new Date(post.created_at).toLocaleDateString()}</small></p>
+                    <p><small className="text-muted">{post.created_at ? new Date(post.created_at).toLocaleDateString() : ''}</small></p>
                     <hr />
                     <ReactMarkdown>{post.content}</ReactMarkdown>
                 </div>
