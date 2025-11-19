@@ -5,7 +5,7 @@ const Blog = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        fetch('/api/blog') // Assuming the API endpoint is /api/blog
+        fetch('/blog') // Assuming the API endpoint is /api/blog
             .then(response => response.json())
             .then(data => setPosts(data))
             .catch(error => console.error('Error fetching blog posts:', error));

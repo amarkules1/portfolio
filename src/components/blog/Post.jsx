@@ -7,7 +7,7 @@ const Post = () => {
     const { postId } = useParams();
 
     useEffect(() => {
-        fetch(`/api/blog/${postId}`)
+        fetch(`/blog/${postId}`)
             .then(response => response.json())
             .then(data => setPost(data))
             .catch(error => console.error('Error fetching post:', error));
